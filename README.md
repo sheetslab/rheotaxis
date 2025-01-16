@@ -54,5 +54,28 @@ II. Running the analysis.
 
 Edit the following lines of code to run the code with your own master csv file.
 
+1) Adjust the data column names.
+After running the master csv file
+- edit the datatype according to your column names
+eg. master.all&Individual <- as.factor(master.all$Individual) for a column named "Individual"
 
+- reconstitute the selection of columns for the aggregate. The aggregate corresponds to the columns you want to select and stack together to perform your analysis. Each number (1,2,3...) is associated with the corresponding column. 
+eg. c(1,3,5,6,9:13,17,18) is an aggregate that selects column 1, 3,5,6, 9 to 13, 17 and 18.
+
+- Edit all the columns names that do not fit your own column names eg. "Rheotaxis", "Genotype", "Treatment". Delete for example the column "Treatment" of you do not have any specific treatment in your set up. 
+
+2) optional : edit the name of the variables to fit your own experimental set up.
+Eg. We used "Cu" as a variable refering to "Copper". 
+
+
+3) Edit after each "$" to fit to your column names eg $Genotype
+
+4) Change the names of the variable in "....". Eg. Genotype = "mutant". Change in the "" according to your own genotype as named on your csv file columns (e.g. Genotype="wildtype)
+
+
+
+III. Plotting the graphs.
+
+At the end of each code in each files lines of code enable to plot directly the graphs and save them as PDF. 
+Edit the color line to have a graph in 3 colors instead of 2.
   
