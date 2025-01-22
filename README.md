@@ -1,3 +1,11 @@
+The "Rheotaxis" repository gathers ressources, codes, files and protocol guidelines corresponding to the the paper Lateral line ablation by ototoxic compounds results in distinct rheotaxis profiles in larval zebrafish (Newton & al. 2023).
+
+# 3D printing the microflume and the chamber 
+The files for 3D printing the microflume and the chamber are available under 
+
+# Microflume flow calibration 
+The python code and associated formula in excel file are available under 
+
 # rheotaxis behavioral data analysis 
 Protocol and code files for the Rheotaxis Behavioral Set up (Newton & al. 2023). 
 
