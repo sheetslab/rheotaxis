@@ -4,7 +4,7 @@ The "Rheotaxis" repository gathers ressources, codes, files and protocol guideli
 The files for 3D printing the microflume and the chamber are available under 
 
 # Microflume flow calibration 
-The python code and associated formula in excel file are available under 
+The python code for calibrating the flow rate is available under "CalibrationVideos-checkpoint.ipynb".
 
 # rheotaxis behavioral data analysis 
 Protocol and code files for the Rheotaxis Behavioral Set up (Newton & al. 2023). 
@@ -41,7 +41,7 @@ I. Installing appropriate libraries and packages.
 1) Open RStudio (don’t open R – its way harder to use) then open the R file appropriate for the type of analysis you want to do (file_name.R – not the RData extension)
 2) Notice that the active code looks different from comments which have the hashtag and are italicized and grayed out (#install.packages). Comments are useful to make notes for what each line or block of code means, how to modify it, etc. You can toggle lines of code into comments and it will inactivate the code but keep it available as a reference for when you want to track modifications to your code
 3) The first few lines of code are where you should set your working drive so that R will save files to a directory specified by youa.MacOS = setwd("/Users/kylenewton/Desktop/Rheotaxis_data") b.WinPC = setwd("C:/Users/kylenewton/Desktop/Rheotaxis_data") c.Pro Tip: from now on, NEVER use spaces in file or directory names! Use the underscore, dash, or period.
-4) 4)You must first install the appropriate package into R. Once it is installed you should not have to do it againunless you want to update the package.
+4) You must first install the appropriate package into R. Once it is installed you should not have to do it againunless you want to update the package.
    a. In the R Console (lower left pane of RStudio) type: install.packages(“package_name”)  then pressreturnb.
    Or in Source Editor (upper left pane): type install.packages(“package_name”) then press command+enter keys to run the line of code (the cursor must be on the line you want to execute or several lines of code can be selected)c.Or in the (bottom right pane) you can click Packages > Install then search for whatever you want.
    Notice that R autocompletes packages available through the R-CRAN repository.
