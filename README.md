@@ -6,6 +6,12 @@ The files for 3D printing the microflume and the chamber are available under
 # Microflume flow calibration 
 The python code for calibrating the flow rate is available under "CalibrationVideos-checkpoint.ipynb".
 
+# Custom rheotaxis feature extraction 
+
+SimBa extracts features from the pose estimation output obtained after tracking with DeepLabCut. Features correspond to specific characteristics of the rheotaixs behavior that we look forward to quantify. To quantify rheotaxis features, we have defined specific features encoding mean angle orientation, velocity, acceleration, for instance.
+Those features are encoded as vectors and compose curated metrics such as distance between different labels in the body parts of the fish. 
+The custom script to be imported in SimBa can be found in this repository under ""
+
 # rheotaxis behavioral data analysis 
 Protocol and code files for the Rheotaxis Behavioral Set up (Newton & al. 2023). 
 
