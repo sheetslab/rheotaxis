@@ -50,13 +50,4 @@ I. Installing appropriate libraries and packages.
 7) Open your data file and import it into a data frame or a temporary object you can give a descriptive name.a.data_rheotaxis <- read.csv('original_data_file.csv')
    b.If the file is not in the working directory, then yhou need to provide the full path to the file (e.g. “Users/kylenewton/Desktop/Complicated_crap/'original_data_file.csv')
 8) Now you can inspect, wrangle, and clean up your data, create data subsets, and do the preprocessing.
-
-
-
-
-
-III. Plotting the graphs.
-
-At the end of each code in each files lines of code enable to plot directly the graphs and save them as PDF. 
-Edit the color line to have a graph in 3 colors instead of 2.
   
