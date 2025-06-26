@@ -6,12 +6,6 @@ The files for 3D printing the microflume and the chamber are available under
 # Microflume flow calibration 
 The python code for calibrating the flow rate is available under "CalibrationVideos-checkpoint.ipynb".
 
-# Custom rheotaxis feature extraction 
-
-SimBa extracts features from the pose estimation output obtained after tracking with DeepLabCut. Features correspond to specific characteristics of the rheotaixs behavior that we look forward to quantify. To quantify rheotaxis features, we have defined specific features encoding mean angle orientation, velocity, acceleration, for instance.
-Those features are encoded as vectors and compose curated metrics such as distance between different labels in the body parts of the fish. 
-The custom script to be imported in SimBa can be found in this repository under ""
-
 # rheotaxis behavioral data analysis 
 Protocol and code files for the Rheotaxis Behavioral Set up (Newton & al. 2023). 
 
@@ -57,28 +51,7 @@ I. Installing appropriate libraries and packages.
    b.If the file is not in the working directory, then yhou need to provide the full path to the file (e.g. “Users/kylenewton/Desktop/Complicated_crap/'original_data_file.csv')
 8) Now you can inspect, wrangle, and clean up your data, create data subsets, and do the preprocessing.
 
-II. Running the analysis.
 
-1) File 1- Circular graphs representing the mean resultant vector before and during water flow stimulation.
-
-Edit the following lines of code to run the code with your own master csv file.
-
-1) Adjust the data column names.
-After running the master csv file
-- edit the datatype according to your column names
-eg. master.all&Individual <- as.factor(master.all$Individual) for a column named "Individual"
-
-- reconstitute the selection of columns for the aggregate. The aggregate corresponds to the columns you want to select and stack together to perform your analysis. Each number (1,2,3...) is associated with the corresponding column. 
-eg. c(1,3,5,6,9:13,17,18) is an aggregate that selects column 1,3,5,6,9 to 13, 17 and 18.
-
-- Edit all the columns names that do not fit your own column names eg. "Rheotaxis", "Genotype", "Treatment". Delete for example the column "Treatment" of you do not have any specific treatment in your set up. 
-
-2) optional : edit the name of the variables to fit your own experimental set up.
-Eg. We used "Cu" as a variable refering to "Copper". 
-
-3) Edit after each "$" to fit to your column names eg $Genotype
-
-4) Change the names of the variable in "....". Eg. Genotype = "mutant". Change in the "" according to your own genotype as named on your csv file columns (e.g. Genotype="wildtype)
 
 
 
