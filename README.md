@@ -6,6 +6,15 @@ The files for 3D printing the microflume and the chamber are available under
 # Microflume flow calibration 
 The python code for calibrating the flow rate is available under "CalibrationVideos-checkpoint.ipynb".
 
+#Custom Feature extraction script
+Our custom python feature extraction script is available under Zebrafish.py
+
+#Configuration file
+You can use our configuration file to load our model with its parameters directly : 
+
+#Example folder
+The folder ""provides example videos and associated DLC and Simba files.
+
 # rheotaxis behavioral data analysis 
 Protocol and code files for the Rheotaxis Behavioral Set up (Newton & al. 2023). 
 
