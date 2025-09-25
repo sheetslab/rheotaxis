@@ -1,0 +1,179 @@
+    # Project definitions (do not edit)
+Task: 5LZF
+scorer: Kyle
+date: Jul22
+multianimalproject: true
+identity:
+
+    # Project path (change when moving around)
+project_path: C:\Users\Fish_Behavior\Desktop\DLCwork\1LZF_DLCma_model-Kyle-2020-07-29\5LZF-Kyle-2020-07-22
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_CTLshort1_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_CTLshort2_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_CTLshort3_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_CTLshort4_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_CTLshort5_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_Neoshort1_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_Neoshort2_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_Neoshort3_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_Neoshort4_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_Neoshort5_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200528_AB_7dpf_5fish_CuSO4short1_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200528_AB_7dpf_5fish_CuSO4short2_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200528_AB_7dpf_5fish_CuSO4short3_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200528_AB_7dpf_5fish_CuSO4short4_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200528_AB_7dpf_5fish_CuSO4short5_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200702_AB_7dpf_5fish_Shakeshort1_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200702_AB_7dpf_5fish_Shakeshort2_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200702_AB_7dpf_5fish_Shakeshort3_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200702_AB_7dpf_5fish_Shakeshort4_cropped.mov:
+    crop: 0, 400, 0, 400
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200702_AB_7dpf_5fish_Shakeshort5_cropped.mov:
+    crop: 0, 400, 0, 400
+individuals:
+- Fish1
+- Fish2
+- Fish3
+- Fish4
+- Fish5
+
+uniquebodyparts:
+- TLcorner
+- TRcorner
+- BLcorner
+- BRcorner
+
+multianimalbodyparts:
+- LeftEye
+- RightEye
+- SwimBladder
+- Tail1
+- Tail2
+- Tail3
+- Tail4
+
+skeleton:
+- - LeftEye
+  - RightEye
+- - RightEye
+  - SwimBladder
+- - Tail2
+  - Tail3
+- - Tail3
+  - Tail4
+- - RightEye
+  - Tail2
+- - LeftEye
+  - Tail4
+- - SwimBladder
+  - Tail2
+- - SwimBladder
+  - Tail1
+- - LeftEye
+  - Tail3
+- - RightEye
+  - Tail4
+- - LeftEye
+  - Tail2
+- - LeftEye
+  - Tail1
+- - Tail1
+  - Tail2
+- - LeftEye
+  - SwimBladder
+bodyparts: MULTI!
+start: 0
+stop: 1
+numframes2pick: 20
+
+    # Plotting configuration
+skeleton_color: black
+pcutoff: 0.6
+dotsize: 3
+alphavalue: 0.7
+colormap: plasma
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 0
+default_net_type: resnet_50
+default_augmenter: multi-animal-imgaug
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+    #if cropping is true for analysis, then set the values here:
+x1: 50
+x2: 974
+y1: 30
+y2: 994
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+croppedtraining: true
+video_sets_original:
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_CTLshort1.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_CTLshort2.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_CTLshort3.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_CTLshort4.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_CTLshort5.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_Neoshort1.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_Neoshort2.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_Neoshort3.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_Neoshort4.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200527_AB_6dpf_5fish_Neoshort5.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200528_AB_7dpf_5fish_CuSO4short1.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200528_AB_7dpf_5fish_CuSO4short2.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200528_AB_7dpf_5fish_CuSO4short3.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200528_AB_7dpf_5fish_CuSO4short4.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200528_AB_7dpf_5fish_CuSO4short5.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200702_AB_7dpf_5fish_Shakeshort1.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200702_AB_7dpf_5fish_Shakeshort2.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200702_AB_7dpf_5fish_Shakeshort3.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200702_AB_7dpf_5fish_Shakeshort4.mov:
+    crop: 0, 1024, 0, 1024
+  C:\Users\Fish_Behavior\Desktop\DLCwork\5LZF-Kyle-2020-07-22\videos\20200702_AB_7dpf_5fish_Shakeshort5.mov:
+    crop: 0, 1024, 0, 1024
