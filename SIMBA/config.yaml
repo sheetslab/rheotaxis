@@ -1,0 +1,83 @@
+    # Project definitions (do not edit)
+Task: LZFtest_1fishmodel
+scorer: Kyle
+date: Dec18
+multianimalproject:
+
+    # Project path (change when moving around)
+project_path: C:/Users/Fish_Behavior/Desktop/DLCwork/LZFtest_1fishmodel-Kyle-2019-12-18
+
+    # Annotation data set configuration (and individual video cropping parameters)
+video_sets:
+  C:/Users/Fish_Behavior/Desktop/DLCwork/LZFtest_1fishmodel-Kyle-2019-12-18/videos/20191212_AB_7dpf_Neo.mov:
+    crop: 0, 1024, 0, 1024
+  C:/Users/Fish_Behavior/Desktop/DLCwork/LZFtest_1fishmodel-Kyle-2019-12-18/videos/20191212_AB_7dpf_CuSO4.mov:
+    crop: 0, 1024, 0, 1024
+  C:/Users/Fish_Behavior/Desktop/DLCwork/LZFtest_1fishmodel-Kyle-2019-12-18/videos/20191212_AB_7dpf_Ctl.mov:
+    crop: 0, 1024, 0, 1024
+
+bodyparts:
+
+- LeftEye_1
+- Right_Eye_1
+- Swim_Bladder_1
+- Swim_Bladder_Tail_Mid_1
+- Tail_Mid_1
+- Tail_Mid_Tail_Tip_1
+- Tail_Tip_1
+
+
+start: 0
+stop: 1
+numframes2pick: 100
+
+    # Plotting configuration
+skeleton:
+
+- - LeftEye_1
+  - Right_Eye_1
+- - Swim_Bladder_1
+  - LeftEye_1
+- - Swim_Bladder_1
+  - Right_Eye_1
+- - Swim_Bladder_Tail_Mid_1
+  - Swim_Bladder_1
+- - Tail_Mid_1
+  - Swim_Bladder_Tail_Mid_1
+- - Tail_Mid_Tail_Tip_1
+  - Tail_Mid_1
+- - Tail_Tip_1
+  - Tail_Mid_Tail_Tip_1
+- - Tail_Tip_1
+  - Swim_Bladder_1
+
+skeleton_color: black
+pcutoff: 0.1
+dotsize: 4
+alphavalue: 0.7
+colormap: jet
+
+    # Training,Evaluation and Analysis configuration
+TrainingFraction:
+- 0.95
+iteration: 1
+default_net_type: resnet_50
+default_augmenter: default
+snapshotindex: -1
+batch_size: 8
+
+    # Cropping Parameters (for analysis and outlier frame detection)
+cropping: false
+croppedtraining:
+    #if cropping is true for analysis, then set the values here:
+x1: 50
+x2: 974
+y1: 30
+y2: 994
+
+    # Refinement configuration (parameters from annotation dataset configuration also relevant in this stage)
+corner2move2:
+- 50
+- 50
+move2corner: true
+resnet: 50
